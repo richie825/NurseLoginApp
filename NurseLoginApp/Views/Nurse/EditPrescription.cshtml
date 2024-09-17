@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "EditPrescription";
+}
+
+<h2>EditPrescription</h2>
+
+<form>
+    <div>
+        <label>Prescription Details</label>
+        <textarea rows="4" cols="50"></textarea>
+    </div>
+    <button type="submit">Save</button>
+</form>
+<!-- Back Button -->
+<a href="@Url.Action("ViewAppointments", "Nurse")">
+    <button type="button">Back to View Appointments</button>
+</a>
